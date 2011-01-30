@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>qAFFU - Ajax Flash File Upload</title>
+<link rel="stylesheet" href="/css/general.css">
+<link rel="stylesheet" href="/css/qaffu.css">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="/js/qAFFU.js"></script>
+
+<script type="text/javascript">
+	var qAFFU = null;
+	$(function(){
+		qAFFU = 	new QAFFU();
+	});
+</script>
+</head>
+<body>
+  <div class="marco">
+    <form id="form1" name="form1" method="post" action="qAFFU.server.php">
+      <label for="title">Titulo</label>
+      <input type="text" name="title" id="title"  class="w"/>
+      <label for="content">Contenido</label>
+      <textarea name="textarea" id="content" cols="45" rows="5" class="w"></textarea>
+      <label>Archivos</label>
+      <div class="qaffu"></div>
+      <button type="submit" name="submit" >Enviar</button>
+      <div class="clear"></div>
+  </form>
+  </div>
+  by <a href="http://devtorres.net/">qhapaq</a>
+</body>
+</html>
