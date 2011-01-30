@@ -1,0 +1,10 @@
+/* begin: qAFFU css*/
+.qitm {float:left}
+.qaffu-list .qaffu-chk, .qaffu-list .qaffu-caption, .qaffu-list .qaffu-progress-bg, .qaffu-list .qaffu-progress, .qaffu-list .qaffu-cancel{float:left; margin-right:8px; }
+.qaffu-list .qaffu-item {clear:both; margin:4px 0 }
+.qaffu-progress-bg {border:1px solid #999; width:102px; height:12px; }
+.qaffu .qaffu-swf {clear:both; background:url(/img/clip.png) no-repeat; background-position:0 4px; padding-left:16px}
+.qaffu-progress {background:#6787E3; width:0px; height:10px; margin:1px 0 0 1px;  }
+.qaffu {float:left }
+.qaffu-error {color:#FF0000}
+/* end: qAFFU css*/

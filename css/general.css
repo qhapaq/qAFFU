@@ -1,0 +1,10 @@
+body { background:#F9F9F9; font-family:Arial, Helvetica, sans-serif; font-size:13px}
+label {color:#666666; float:left; width:70px; clear:both; line-height:24px}
+input, textarea{ border:1px solid #E5E5E5; font-family:Arial, Helvetica, sans-serif; font-size:14px; float:left; margin-bottom:10px; padding:3px }
+button {margin:20px 0 0 70px; float:left; clear:both; }
+form {width:630px; border:1px solid  #E2E2E2; padding:18px 10px; background:#FCFCFC }
+.marco {width:632px; border:1px solid #fff;  }
+.w {width:544px}
+.clear {clear:both}
+.qaffu {width:550px; }
+.qaffu input {margin-bottom:6px}
